@@ -12,6 +12,6 @@
 - U2         : Driver Motor1 power connector
 - U3         : Driver Motor2 power connector
 - U4         : Driver Motor3 power connector
-- +          : Driver Motor powerconnection (battery 16V)
+- '+'          : Driver Motor powerconnection (battery 16V)
 
     
