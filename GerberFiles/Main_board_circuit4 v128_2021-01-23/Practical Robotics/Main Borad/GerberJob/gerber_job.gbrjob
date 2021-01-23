@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-01-14T17:52:29Z",
+        "CreationDate": "2021-01-23T19:48:26Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "Main_board_circuit4 v128"
         },
-        "Owner": "  <>",
+        "Owner": "Tayasan Milinda <malinda19900407@gmail.com>",
         "Size": {
             "X": 46,
             "Y": 50
