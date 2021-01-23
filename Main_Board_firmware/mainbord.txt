@@ -1,0 +1,122 @@
+Configuration	mainbord
+STM32CubeMX 	6.0.0
+Date	12/07/2020
+MCU	STM32G431KBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM2	PWM Generation CH1	TIM2_CH1	PA0
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+TIM2	PWM Generation CH3	TIM2_CH3	PA2
+TIM2	PWM Generation CH4	TIM2_CH4	PA3
+TIM3	Encoder Mode	TIM3_CH1	PB4
+TIM3	Encoder Mode	TIM3_CH2	PB5
+TIM4	Encoder Mode	TIM4_CH1	PB6
+TIM4	Encoder Mode	TIM4_CH2	PB7
+TIM8	PWM Generation CH1	TIM8_CH1	PA15
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+TIM16	PWM Generation CH1	TIM16_CH1	PA6
+TIM17	Enable_Timer	TIM17_VS_ClockSourceINT	VP_TIM17_VS_ClockSourceINT
+TIM17	PWM Generation CH1	TIM17_CH1	PA7
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PF1-OSC_OUT	GPIO_Output	
+5	PA0	TIM2_CH1	
+6	PA1	TIM2_CH2	
+7	PA2	TIM2_CH3	
+8	PA3	TIM2_CH4	
+11	PA6	TIM16_CH1	
+12	PA7	TIM17_CH1	
+18	PA8	TIM1_CH1	
+19	PA9	TIM1_CH2	
+21	PA11	USB_DM	
+22	PA12	USB_DP	
+23	PA13	SYS_JTMS-SWDIO	
+24	PA14	SYS_JTCK-SWCLK	
+25	PA15	TIM8_CH1	
+27	PB4	TIM3_CH1	
+28	PB5	TIM3_CH2	
+29	PB6	TIM4_CH1	
+30	PB7	TIM4_CH2	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM2	PWM Generation CH1	TIM2_CH1	PA0
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+TIM2	PWM Generation CH3	TIM2_CH3	PA2
+TIM2	PWM Generation CH4	TIM2_CH4	PA3
+TIM3	Encoder Mode	TIM3_CH1	PB4
+TIM3	Encoder Mode	TIM3_CH2	PB5
+TIM4	Encoder Mode	TIM4_CH1	PB6
+TIM4	Encoder Mode	TIM4_CH2	PB7
+TIM8	PWM Generation CH1	TIM8_CH1	PA15
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+TIM16	PWM Generation CH1	TIM16_CH1	PA6
+TIM17	Enable_Timer	TIM17_VS_ClockSourceINT	VP_TIM17_VS_ClockSourceINT
+TIM17	PWM Generation CH1	TIM17_CH1	PA7
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PF1-OSC_OUT	GPIO_Output	
+5	PA0	TIM2_CH1	
+6	PA1	TIM2_CH2	
+7	PA2	TIM2_CH3	
+8	PA3	TIM2_CH4	
+11	PA6	TIM16_CH1	
+12	PA7	TIM17_CH1	
+18	PA8	TIM1_CH1	
+19	PA9	TIM1_CH2	
+21	PA11	USB_DM	
+22	PA12	USB_DP	
+23	PA13	SYS_JTMS-SWDIO	
+24	PA14	SYS_JTCK-SWCLK	
+25	PA15	TIM8_CH1	
+27	PB4	TIM3_CH1	
+28	PB5	TIM3_CH2	
+29	PB6	TIM4_CH1	
+30	PB7	TIM4_CH2	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : mainbord
+Project Folder : C:\Users\Dell\STM32CubeIDE\workspace_1.4.0\mainbord
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G4 V1.3.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
