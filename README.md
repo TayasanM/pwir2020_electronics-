@@ -11,7 +11,16 @@ Communication between main PC and control board happens in HEX values(16 bits).
 
 ## Contection ##
 - Micro USB  : Comunitcate with PC where you can get speeds of the speeds of the motors and send feedback
-- J7         : STM32 programmer connector
+- J7         : STM32 programmer connector  ( 1 : +3.3V
+    2 :SWDIO(communication with programmer)
+    4 :SWCLK(Progrmamer clock)
+    10:NRST(reset)
+    3,5,9:GND
+    6,7,8: NC)
+  ( 1 : GND
+    2 :+3.3V
+    3 : Encoder Signal line 2 for Motor1
+    4 : Encoder Signal line 1 for Motor1)
 - J5         : Driver Motor2 encoder conector
    ( 1 : GND
     2 :+3.3V
@@ -23,8 +32,7 @@ Communication between main PC and control board happens in HEX values(16 bits).
     2 :+3.3V
     3 : Encoder Signal line 2 for Motor3
     4 : Encoder Signal line 1 for Motor3)
-- J4         : Driver Motor1 encoder conector  
-( 1 : GND
+- J4         : Driver Motor1 encoder conector  ( 1 : GND
     2 :+3.3V
     3 : Encoder Signal line 2 for Motor1
     4 : Encoder Signal line 1 for Motor1)
