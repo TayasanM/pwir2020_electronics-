@@ -1,6 +1,8 @@
 # pwir2020_Madmax_Electronics-
 ## Functionality Discription 
-    This electronic board consists of main control circuit and driver circuit.This circuit capable of driver three DC Gear Motors (16V) and communicate with on board computer via USB connection excute Motor rotation given speed and give feedback of speed.Another functionality of this board is controling thrower servo Motor speed.Driver Motor speed control using PI controller implement in firmware to archive desired speed quickly 
+    This electronic board consists of main control circuit and driver circuit.This circuit capable of driver three DC Gear Motors (16V) and communicate with on board computer via USB connection excute Motor rotation given speed and give feedback of speed.
+    
+    Another functionality of this board is controling thrower servo Motor speed.Driver Motor speed control using PI controller implement in firmware to archive desired speed quickly 
 ## Communication 
 Communication between main PC and control board happens in HEX values(16 bits).
  driver Motor speeds send between 0-100 , thrower Motors speed (0-1000) and end command
