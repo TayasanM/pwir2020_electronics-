@@ -17,10 +17,7 @@ Communication between main PC and control board happens in HEX values(16 bits).
     10:NRST(reset)
     3,5,9:GND
     6,7,8: NC)
-  ( 1 : GND
-    2 :+3.3V
-    3 : Encoder Signal line 2 for Motor1
-    4 : Encoder Signal line 1 for Motor1)
+
 - J5         : Driver Motor2 encoder conector
    ( 1 : GND
     2 :+3.3V
