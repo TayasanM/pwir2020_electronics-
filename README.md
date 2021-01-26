@@ -15,12 +15,24 @@ Communication between main PC and control board happens in HEX values(16 bits).
 - J5         : Driver Motor2 encoder conector
    ( 1 : GND
     2 :+3.3V
-    3 : Encoder Signal line 2 for Motor1
-    4 : Encoder Signal line 1 for Motor1)
+    3 : Encoder Signal line 2 for Motor2
+    4 : Encoder Signal line 1 for Motor2)
              
 - J6         : Driver Motor3 encoder conector
-- J4         : Driver Motor1 encoder conector
+  ( 1 : GND
+    2 :+3.3V
+    3 : Encoder Signal line 2 for Motor3
+    4 : Encoder Signal line 1 for Motor3)
+- J4         : Driver Motor1 encoder conector  
+( 1 : GND
+    2 :+3.3V
+    3 : Encoder Signal line 2 for Motor1
+    4 : Encoder Signal line 1 for Motor1)
 - J3         : Thrower Motor Signal connector
+   ( 1 : GND
+    2  :PWM
+    3 : NC
+    4 : NC)
 - U2         : Driver Motor1 power connector
 - U3         : Driver Motor2 power connector
 - U4         : Driver Motor3 power connector
