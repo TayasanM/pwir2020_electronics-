@@ -43,4 +43,4 @@ Communication between main PC and control board happens in HEX values(16 bits).
 - U4         : Driver Motor3 power connector
 - '+'          : Driver Motor powerconnection (battery 16V)
 
- ![]( )  
+ ![](141259562_133307985303833_5462991217890036333_n.jpg )  
