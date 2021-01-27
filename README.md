@@ -54,4 +54,4 @@ E.g. 64 00 64 00 64 00 64 00 AA AA
 - '+'          : Driver Motor powerconnection (battery 16V)
 - '+'          : Driver Motor powerconnection (battery 16V)
 
- ![](Mainboard.jpg )  
+ ![](Main Board.jpg )  
